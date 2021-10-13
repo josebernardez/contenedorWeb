@@ -1,0 +1,8 @@
+version: '2.2'
+  services: 
+  asir_web:
+    image: httpd
+  ports: 
+    -[9000:80]
+  volumes: -.htdocs:/asir2a/local/apache2/htdocs
+
